@@ -7,6 +7,7 @@ Group:          Development/Other
 URL:            http://forge.ocamlcore.org/projects/ocaml-lzma/
 Source0:        http://forge.ocamlcore.org/frs/download.php/378/ocaml-lzma-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
+BuildRequires:  ocaml
 
 %description
 OCaml bindings for the LZMA compression library.
