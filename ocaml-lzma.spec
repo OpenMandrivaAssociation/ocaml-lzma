@@ -1,11 +1,12 @@
 Name:           ocaml-lzma
 Version:        0.01
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        OCaml bindings for the LZMA compression library
 License:        LGPL with static compilation exception
 Group:          Development/Other
 URL:            http://forge.ocamlcore.org/projects/ocaml-lzma/
 Source0:        http://forge.ocamlcore.org/frs/download.php/378/ocaml-lzma-%{version}.tar.gz
+Patch0:		ocaml-lzma-0.01-xz-5.0.patch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires:  ocaml
 BuildRequires:  liblzma-devel
@@ -27,6 +28,7 @@ developing applications that use %{name}.
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
 make
