@@ -64,3 +64,21 @@ rm -rf %{buildroot}
 %{_libdir}/ocaml/lzma/*.cmo
 %{_libdir}/ocaml/lzma/*.mli
 %{_libdir}/ocaml/stublibs/*.cmxs
+
+
+%changelog
+* Mon Nov 14 2011 Funda Wang <fwang@mandriva.org> 0.01-3mdv2012.0
++ Revision: 730508
+- mandriva come with LZMA_PRESET_TEXT now
+
+* Sat Nov 27 2010 Funda Wang <fwang@mandriva.org> 0.01-2mdv2011.0
++ Revision: 601657
+- fix build with xz 5.0
+
+* Mon Apr 26 2010 Florent Monnier <blue_prawn@mandriva.org> 0.01-1mdv2011.0
++ Revision: 539376
+- BuildRequires: liblzma-devel
+- BuildRequires: ocaml
+- import ocaml-lzma
+
+
