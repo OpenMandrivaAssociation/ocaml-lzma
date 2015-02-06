@@ -1,6 +1,6 @@
 Name:           ocaml-lzma
 Version:        0.01
-Release:        %mkrel 3
+Release:        4
 Summary:        OCaml bindings for the LZMA compression library
 License:        LGPL with static compilation exception
 Group:          Development/Other
