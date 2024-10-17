@@ -4,7 +4,7 @@ Release:        4
 Summary:        OCaml bindings for the LZMA compression library
 License:        LGPL with static compilation exception
 Group:          Development/Other
-URL:            http://forge.ocamlcore.org/projects/ocaml-lzma/
+URL:            https://forge.ocamlcore.org/projects/ocaml-lzma/
 Source0:        http://forge.ocamlcore.org/frs/download.php/378/ocaml-lzma-%{version}.tar.gz
 BuildRequires:  ocaml
 BuildRequires:  liblzma-devel
