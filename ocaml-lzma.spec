@@ -6,6 +6,7 @@ License:        LGPL with static compilation exception
 Group:          Development/Other
 URL:            https://forge.ocamlcore.org/projects/ocaml-lzma/
 Source0:        http://forge.ocamlcore.org/frs/download.php/378/ocaml-lzma-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:  ocaml
 BuildRequires:  liblzma-devel
 
